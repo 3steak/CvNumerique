@@ -17,12 +17,17 @@ header {
     background: rgba(0, 0, 34, 0.5);
     color: white;
     justify-content: center;
-    width: 60%;
-    height: 80%;
+    width: 70%;
+    height: ;
 }
 
 .cardHeader h1 {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cardHeader h2 {
+    font-size: 25px;
 }
 
 .cardHeader .btn {
@@ -57,4 +62,39 @@ header {
 
 .navbar-toggler {
     background-color: rgba(0, 0, 34);
+}
+
+.cv {
+    background-color: #EFF1F3;
+}
+
+.xp {
+    background-color: #EFF1F3;
+}
+
+.cv h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.propos,
+.skills,
+.speak,
+.objectif {
+    background-color: rgba(0, 0, 34, 0.2);
+    position: relative;
+}
+
+.cv img {
+    position: absolute;
+    top: -2rem;
+    left: 1rem;
+    width: 20px;
+    height: 20px;
+
 }
