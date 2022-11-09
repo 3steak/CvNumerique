@@ -1,4 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
+/* J'enleve toutes bordures naturelles */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-image: url(/public/assets/img/waves2_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.cardHeader {
+    background: rgba(0, 0, 34, 0.5);
+    color: white;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
+}
+
+.cardHeader h1 {
+    font-size: 30px;
+}
+
+.cardHeader .btn {
+    background: #000022;
+    border-radius: 15px;
+}
+
+.cardHeader button a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-mobil {
+    height: 100px;
+    position: fixed;
+    /* 50% je me fixe à la moitié de l'écran
+    -65px Moins la moitié de ma nav donc son milieu */
+    margin: -65px 0px 0 20px;
+    top: 15%;
+    right: 0px;
+}
+
+
+.offcanvas-body {
+    background: #000022;
+}
+
+.navbar-toggler {
+    background-color: rgba(0, 0, 34);
 }

@@ -9,13 +9,160 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="/public/assets/css/style.css">
 
-    <title>CV BOCQUET CYPRIEN</title>
+    <title>BOCQUET CYPRIEN</title>
 </head>
 
 <body>
 
-    <p>Oui</p>
+    <!-- Header -->
+    <header id="accueil">
+        <section class="container-fluid header">
+            <div class="row justify-content-center">
+                <div class="col-8 cardHeader text-center">
+                    <h1>Cyprien<br>BOCQUET</h1>
+                    <h2>Développeur web</h2>
+                    <p>Amiens, France</p>
+                    <button type="button" class="btn my-2"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                <path
+                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                <path
+                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                            </svg> CV</a></button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Nav fixed mobil -->
+    <nav class="nav-mobil navbar navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler button-float" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mon CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mes réalisations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Centres d'intérêts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--  SECTION CV  -->
+    <section class="container-fluid row cv">
+        <div class="col-12">
+            <h2>Mon CV</h2>
+            <div class="row-10 propos">
+                <img src="" alt="Logo text">
+                <div class="col-10 propos-text">
+                    <h2>Cyprien Bocquet</h2>
+                    <p>Permis B</p>
+                    <p>Raconter sa vie</p>
+                </div>
+            </div>
+            <div class="row-10 speak">
+                <img src="" alt="Logo Speak">
+                <div class="col-10 speak-text">
+                    <h2>Langues parlées</h2>
+                    <p>ANLGAIS</p>
+                    <p>ESPAGNOL</p>
+                </div>
+            </div>
+            <div class="row-10 skills">
+                <img src="" alt="Logo skills">
+                <div class="col-10 skills-text">
+                    <h2>Mes compétences</h2>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="row-10 objectif">
+                <img src="" alt="Logo objectif">
+                <div class="col-10 objectif-text">
+                    <h2>Mes objectifs 2023</h2>
+                    <p>Alternance formation CDA</p>
+                    <p>RACT NATIVE</p>
+                    <p>API</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section XP -->
+    <section class="container-fluid row xp">
+        <div class="col-4 line-xp">
+            <!-- HR -->
+        </div>
+        <div class="col-8">
+            <h2>Formations et expériences</h2>
+            <p>Expérience 1</p>
+            <p>Expériences 2</p>
+            <p>Expériences 3</p>
+        </div>
+    </section>
+
+    <!-- Mes réalisations -->
+
+    <section class=" container-fluid row sites">
+        <h2>Mes réalisations</h2>
+        <div class="col-10 site1">
+
+        </div>
+        <div class="col-10 site2">
+
+        </div>
+        <div class="col-10 site3">
+
+        </div>
+        <div class="col-10 site4">
+
+        </div>
+    </section>
+
+    <!-- Centre d'intérêts -->
+    <section class="container-fluid row hobbies">
+        <h2>Centres d'intérêts</h2>
+        <div class="col-12 mosaique">
+            <img src="" alt="pc souris">
+            <img src="" alt="skate">
+            <img src="" alt="concert">
+            <img src="" alt="surf">
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="container-fluid row map">
+        <!--  css background img map -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82240.00585496023!2d2.214641549874109!3d49.898799884479246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78413d78b760b%3A0x40af13e816220e0!2sAmiens!5e0!3m2!1sen!2sfr!4v1667998240234!5m2!1sen!2sfr"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
 
 
 
