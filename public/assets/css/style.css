@@ -88,12 +88,20 @@ header {
     font-weight: bold;
 }
 
+.cv h3,
+.cv p,
+.cv img {
+    transform: translateZ(30px);
+}
+
 .propos,
 .skills,
 .speak,
 .objectif {
     background-color: rgba(0, 0, 34, 0.2);
     position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 
 .cv,
