@@ -26,7 +26,6 @@ header {
     color: white;
     justify-content: center;
     width: 70%;
-    height: ;
 }
 
 .cardHeader h1 {
@@ -131,7 +130,7 @@ header {
     font-weight: bold;
 }
 
-/* TIMELINE REPONSIVE source https://codepen.io/ChamikaUdayanga2/pen/rNdWoYa */
+/* TIMELINE RESPONSIVE source https://codepen.io/ChamikaUdayanga2/pen/rNdWoYa */
 .timeline:before {
     content: '';
     position: absolute;
