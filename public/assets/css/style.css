@@ -4,6 +4,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-image: url(/public/assets/img/background1.jpg);
 }
 
 /*  HEADER  */
@@ -129,6 +130,8 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+
+
 
 /* TIMELINE RESPONSIVE source https://codepen.io/ChamikaUdayanga2/pen/rNdWoYa */
 .timeline:before {
@@ -279,4 +282,25 @@ header {
         right: inherit;
     }
 
+}
+
+/*  Mes réalisations  */
+
+.sites {
+    background-color: #EFF1F3;
+    margin: 20vh 0;
+}
+
+.sites h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.site1,
+.site2,
+.site3,
+.site4 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
