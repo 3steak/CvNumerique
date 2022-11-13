@@ -63,6 +63,7 @@ header {
     margin: -65px 0px 0 20px;
     top: 15%;
     right: 0px;
+    z-index: 10;
 }
 
 
@@ -75,7 +76,9 @@ header {
 }
 
 
-
+section {
+    width: 100%;
+}
 
 /*  SECTION CV  */
 .cv h2 {
@@ -148,7 +151,7 @@ header {
 .timeline {
     position: relative;
     margin: 50px auto;
-    width: 1000px;
+    width: 100%;
     padding: 50px 0;
 }
 
@@ -303,4 +306,47 @@ header {
     background-color: blue;
     height: 100px;
     width: 100px;
+}
+
+/* SECTION HOBBIES */
+.hobbies {
+    background-color: #EFF1F3;
+    margin: 20vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hobbies .mouse,
+.hobbies .skate,
+.hobbies .concert,
+.hobbies .surf {
+    height: 40vh;
+    background-size: cover;
+}
+
+.hobbies .mouse {
+    background-image: url(/public/assets/img/gaming.jpg);
+}
+
+.hobbies .skate {
+    background-image: url(/public/assets/img/skate.jpg);
+}
+
+.hobbies .concert {
+    background-image: url(/public/assets/img/music.jpg);
+}
+
+.hobbies .surf {
+    background-image: url(/public/assets/img/surf.jpg);
+}
+
+/* Section MAP */
+
+.map {
+    background-color: #EFF1F3;
 }
