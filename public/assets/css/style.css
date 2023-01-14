@@ -53,6 +53,8 @@ header {
     align-items: center;
 }
 
+
+
 /* NAV MOBIL */
 
 .nav-mobil {
@@ -256,6 +258,7 @@ section {
         width: 100%;
     }
 
+
     .timeline:before {
         left: 20px;
     }
@@ -284,7 +287,6 @@ section {
         left: 50px;
         right: inherit;
     }
-
 }
 
 /*  Mes réalisations  */
@@ -303,17 +305,33 @@ section {
 .site2,
 .site3,
 .site4 {
-    background-color: blue;
-    height: 100px;
-    width: 100px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.site1 {
+    background-image: url(/public/assets/img/XTREMSPOT.png);
+
+}
+
+.site2 {
+    background-image: url(/public/assets/img/PROGRAMMEWORDPRESS.png);
+}
+
+.site3 {
+    background-image: url(/public/assets/img/SpaceWar.png);
+}
+
+.site4 {
+    background-image: url(/public/assets/img/CalendarPHP.png);
+
 }
 
 /* SECTION HOBBIES */
 .hobbies {
     background-color: #EFF1F3;
     margin: 20vh 0;
-    display: flex;
-    justify-content: center;
 }
 
 .hobbies h2 {
@@ -325,12 +343,13 @@ section {
 .hobbies .skate,
 .hobbies .concert,
 .hobbies .surf {
-    height: 40vh;
+    height: 50vh;
     background-size: cover;
 }
 
 .hobbies .mouse {
     background-image: url(/public/assets/img/gaming.jpg);
+
 }
 
 .hobbies .skate {
@@ -349,4 +368,61 @@ section {
 
 .map {
     background-color: #EFF1F3;
+    height: 40vh;
+}
+
+
+/* MEDIA QUERIES  */
+
+@media only screen and (min-width: 1000px) {
+
+    /* Button flottant */
+    .button-float {
+        margin-right: 50px;
+        width: 100px;
+        height: 70px;
+    }
+
+    /* Span Intérieur button flottant */
+    .navbar-toggler-icon {
+        width: 40px;
+    }
+}
+
+/*  MEDIA QUERIES MOBILE  */
+
+@media only screen and (max-width: 900px) {
+    /*  Mes réalisations  */
+
+    .sites h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .site1,
+    .site2,
+    .site3,
+    .site4 {
+        height: 50vh;
+        width: 100vw;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .site1 {
+        background-image: url();
+        background-color: blue;
+    }
+
+    .site2 {
+        background-image: url(/public/assets/img/PROGRAMMEWORDPRESS.png);
+    }
+
+    .site3 {
+        background-image: url(/public/assets/img/SpaceWarMobile.png);
+    }
+
+    .site4 {
+        background-image: url(/public/assets/img/CalendarPHP.png);
+    }
 }
