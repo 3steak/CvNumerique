@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/public/assets/css/style.css">
 
     <title>BOCQUET CYPRIEN</title>
@@ -32,22 +37,23 @@
                             </svg> CV</a></button>
                 </div>
 
-                <!-- CARD DESKTOP -->
-                <div class="col-8 cardHeader2 text-center py-4">
-                    <button type="button" class="btn btn-lg my-2"><a href="CV_BOCQUET.pdf"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-download" viewBox="0 0 16 16">
+                <!-- CARD DESKTOP TYPPING -->
+                <div class="col-8 cardHeader2 text-center py-4 d-none d-lg-block d-xl-block">
+                    <div class="text">OUI</div>
+                    <button type="button" class="btn btn-lg my-2"><a target="_blank"
+                            href="/public/CV_Cyprien_Bocquet.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
                                 <path
                                     d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
                                 <path
                                     d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-                            </svg> CV</a></button>
+                            </svg>CV</a></button>
                 </div>
             </div>
         </section>
 
     </header>
-    <!-- Nav fixed only on mobile -->
+    <!-- Nav fixed mobile -->
     <nav class="nav-mobil navbar navbar-dark d-lg-none d-xl-none">
         <div class="container-fluid">
             <button class="navbar-toggler button-float" type="button" data-bs-toggle="offcanvas"
@@ -82,21 +88,23 @@
             </div>
         </div>
     </nav>
+    l
 
+    <!-- NAV FIXED DESKTOP -->
 
-    <!-- NAV DESKTOP -->
-
-    <div class="desktopNav">
-        <div class="headerCard text-white p-4">
-            <h1 class="lastnameCard">Bocquet <span>Cyprien</span></h1>
-            <h2 class="m-2 ">Développeur web</h2>
-            <p class="m-4">France</p>
+    <div class="desktopNav d-none d-lg-block d-xl-block">
+        <div class="headerCard text-white text-center p-4">
+            <h1 class="nameCard ">Bocquet Cyprien</h1>
+            <h3 class="m-2 dev">Développeur web</h3>
+            <p class="m-4 france"><i class="fa-regular fa-paper-plane me-3"></i>France</p>
         </div>
 
-        <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+        <p class="card-text p-3 text-center">Développeur Web et Web mobile en formation, je suis à la recherche d'une
+            alternance
+            Bac+3 en Concéption d'Application pour octobre 2023.
+        </p>
 
-        <ul class=" mt-4 d-flex flex-column gap-4 text-center">
+        <ul class=" mt-4 d-flex flex-column gap-3 text-center">
             <li class="nav-item">
                 <a class="list-group-item" aria-current="page" href="#accueil">Accueil</a>
             </li>
@@ -112,7 +120,26 @@
             <li class="nav-item">
                 <a class="list-group-item" href="#hobbies">Centres d'intérêts</a>
             </li>
+            <hr>
         </ul>
+        <div class="contact">
+            <h3 class=" text-center bg-dark text-white p-4">Me contacter</h3>
+            <div class="socialLink p-4 d-flex gap-4 justify-content-center"><!-- Button tel -->
+                <!-- Button mail  -->
+                <a class="btn text-white" style="background-color: #dd4b39;" href="mailto:cyprien.bocquet@gmail.com"
+                    role="button">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <!-- Github -->
+                <a class="btn text-white" style="background-color: #333333;" href="https://github.com/3steak"
+                    target="_blank" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+
+            </div>
+        </div>
+
+
     </div>
 
 

@@ -29,13 +29,15 @@ header {
     width: 70%;
 }
 
+
+
 .cardHeader h1 {
     font-size: 40px;
     font-weight: bold;
 }
 
 .cardHeader h2 {
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 
 .cardHeader .btn {
@@ -53,7 +55,64 @@ header {
     align-items: center;
 }
 
+/* NAV DESKTOP  */
 
+.desktopNav {
+    height: auto;
+    width: 22rem;
+    background: white;
+    margin: -11rem 0px 0 35px;
+    z-index: 10;
+    position: fixed;
+    top: 35%;
+}
+
+
+.contact {
+    background: #FEFEE2;
+}
+
+.contact h3 {
+    font-size: 2rem;
+}
+
+.desktopNav a {
+    font-size: 1.4rem;
+}
+
+.headerCard {
+    background: #000022;
+}
+
+.cardHeader2 {
+    background: rgba(0, 0, 34, 0.5);
+    color: white;
+    justify-content: center;
+    width: 40%;
+}
+
+.cardHeader2 .btn {
+    background: #000022;
+    border-radius: 15px;
+}
+
+.cardHeader2 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.nameCard {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.dev {
+    font-size: 1.6rem;
+}
+
+.france {
+    font-size: 1.3rem;
+}
 
 /* NAV MOBIL */
 
@@ -84,12 +143,12 @@ section {
 
 /*  SECTION CV  */
 .cv h2 {
-    font-size: 40px;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
 .cv h3 {
-    font-size: 20px;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
@@ -107,6 +166,7 @@ section {
     position: relative;
     transform-style: preserve-3d;
     transform: perspective(1000px);
+    z-index: 20;
 }
 
 .cv,
@@ -125,6 +185,9 @@ section {
 
 
 /*  FORMATION ET EXPEPERIENCE */
+.xp {
+    padding: 0 10% 0 15%;
+}
 
 .xp-title {
     font-size: 30px;
@@ -302,7 +365,7 @@ a {
 }
 
 .sites h2 {
-    font-size: 40px;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
@@ -316,7 +379,7 @@ a {
 }
 
 .site1 {
-    background-image: url(/public/assets/img/XTREMSPOT.png);
+    background-image: url(/public/assets/img/Form.pngl);
 
 }
 
@@ -340,7 +403,7 @@ a {
 }
 
 .hobbies h2 {
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -400,7 +463,7 @@ a {
     /*  Mes réalisations  */
 
     .sites h2 {
-        font-size: 40px;
+        font-size: 2.4rem;
         font-weight: bold;
     }
 
@@ -415,8 +478,8 @@ a {
     }
 
     .site1 {
-        background-image: url();
-        background-color: blue;
+        background-image: url(/public/assets/img/Form.png);
+
     }
 
     .site2 {
