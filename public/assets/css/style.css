@@ -2,7 +2,7 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
 body {
-    width: 100vw;
+    min-width: 100vw;
     height: 100vh;
     background-image: url(/public/assets/img/background1.jpg);
 }
@@ -139,6 +139,11 @@ section {
 
 
 /* TIMELINE RESPONSIVE source https://codepen.io/ChamikaUdayanga2/pen/rNdWoYa */
+a {
+    text-decoration: none;
+}
+
+
 .timeline:before {
     content: '';
     position: absolute;
