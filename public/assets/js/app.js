@@ -1,7 +1,7 @@
 // Text typing 
 
 const textDisplay = document.getElementById('text');
-const phrases = ['Let bonjour = ', '"Hello, my name is Cyprien."', '"I love to code."', '"Here is what I can do."', '"Contact me!"'];
+const phrases = ['Let bonjour = ', '"Hello, my name is Cyprien."', '"I love to code."', '"Here is what I can do."', '"Contact me !"'];
 
 // i is the sentence
 let i = 0;
@@ -48,9 +48,9 @@ function loop() {
         }
     }
 
-    const spedUp = Math.random() * (80 - 50) + 50;
+    const speedUp = Math.random() * (80 - 50) + 50;
     const normalSpeed = Math.random() * (200 - 100) + 100;
-    const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed;
+    const time = isEnd ? 2000 : isDeleting ? speedUp : normalSpeed;
     setTimeout(loop, time);
 }
 
