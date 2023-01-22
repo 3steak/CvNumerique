@@ -69,10 +69,10 @@ header {
 /* NAV DESKTOP  */
 
 .desktopNav {
-    height: 60vh;
+    height: auto;
     width: 12%;
     background: white;
-    margin: -7% 0 0 30px;
+    margin: -5% 0 0 25px;
     z-index: 10;
     position: fixed;
     top: 35%;
@@ -86,8 +86,6 @@ header {
 .contact {
     background: #FEFEE2;
 }
-
-
 
 .contact h3 {
     font-family: 'Ubuntu', sans-serif;
