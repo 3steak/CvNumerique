@@ -70,7 +70,7 @@ header {
 
 .desktopNav {
     height: auto;
-    width: 20rem;
+    width: 12%;
     background: white;
     margin: -11rem 0px 0 30px;
     z-index: 10;
@@ -190,7 +190,6 @@ section {
     position: relative;
     transform-style: preserve-3d;
     transform: perspective(1000px);
-    z-index: 20;
 }
 
 .cv,
