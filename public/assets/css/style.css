@@ -10,12 +10,12 @@
 body {
     max-width: 100vw;
     height: 100vh;
-    background-image: url(/public/assets/img/background1.jpg);
+    background-image: url(/public/assets/img/background1.webp);
 }
 
 /*  HEADER  */
 header {
-    background-image: url(/public/assets/img/waves2_header.jpg);
+    background-image: url(/public/assets/img/waves2_header.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -23,7 +23,7 @@ header {
 
 @media (orientation: portrait) {
     header {
-        background-image: url(/public/assets/img/waves2_header_portrait.jpg );
+        background-image: url(/public/assets/img/waves2_header_portrait.webp );
     }
 }
 
@@ -70,7 +70,7 @@ header {
 
 .desktopNav {
     height: auto;
-    width: 12%;
+    width: 13%;
     background: white;
     margin: 0 0 0 10px;
     z-index: 10;
@@ -412,20 +412,20 @@ a {
 }
 
 .site1 {
-    background-image: url(/public/assets/img/Form.png);
+    background-image: url(/public/assets/img/form.webp);
 
 }
 
 .site2 {
-    background-image: url(/public/assets/img/PROGRAMMEWORDPRESS.png);
+    background-image: url(/public/assets/img/PROGRAMMEWORDPRESS.webp);
 }
 
 .site3 {
-    background-image: url(/public/assets/img/SpaceWar.png);
+    background-image: url(/public/assets/img/SpaceWar.webp);
 }
 
 .site4 {
-    background-image: url(/public/assets/img/CalendarPHP.png);
+    background-image: url(/public/assets/img/CalendarPHP.webp);
 
 }
 
@@ -450,20 +450,20 @@ a {
 }
 
 .hobbies .mouse {
-    background-image: url(/public/assets/img/gaming.jpg);
+    background-image: url(/public/assets/img/gaming.webp);
 
 }
 
 .hobbies .skate {
-    background-image: url(/public/assets/img/skate.jpg);
+    background-image: url(/public/assets/img/skate.webp);
 }
 
 .hobbies .concert {
-    background-image: url(/public/assets/img/music.jpg);
+    background-image: url(/public/assets/img/music.webp);
 }
 
 .hobbies .surf {
-    background-image: url(/public/assets/img/surf.jpg);
+    background-image: url(/public/assets/img/surf.webp);
 }
 
 /* Section MAP */
@@ -524,7 +524,6 @@ a {
 
     .site1 {
         background-image: url(/public/assets/img/Form.png);
-
     }
 
     .site2 {
