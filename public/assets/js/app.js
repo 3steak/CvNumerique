@@ -1,7 +1,7 @@
 // Text typing 
 
 const textDisplay = document.getElementById('text');
-const phrases = ['Let bonjour = ', '"Hello, my name is Cyprien."', '"I love to code."', '"Here is what I can do."', '"Contact me !"'];
+const phrases = ['Let bonjour = ', '"Salut, mon prénom est Cyprien."', '"Je suis à la recherche d\'une alternance"', '"Contactez moi !"'];
 
 // i is the sentence
 let i = 0;

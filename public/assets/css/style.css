@@ -72,10 +72,11 @@ header {
     height: auto;
     width: 12%;
     background: white;
-    margin: -5% 0 0 25px;
+    margin: 0 0 0 10px;
     z-index: 10;
     position: fixed;
-    top: 35%;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .desktopNav p {
@@ -83,9 +84,6 @@ header {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.contact {
-    background: #FEFEE2;
-}
 
 .contact h3 {
     font-family: 'Ubuntu', sans-serif;
@@ -346,6 +344,8 @@ a {
 }
 
 /* parametre responsive de la timeline */
+
+
 @media (max-width: 1000px) {
 
     .timeline {
@@ -475,6 +475,16 @@ a {
 
 
 /* MEDIA QUERIES  */
+/* Police navbar desktop */
+@media only screen and (max-width: 1500px) {
+    .nameCard {
+        font-size: 1.6rem;
+    }
+
+    .dev {
+        font-size: 1rem;
+    }
+}
 
 @media only screen and (min-width: 1000px) {
 
