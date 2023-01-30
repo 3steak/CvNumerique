@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^cyprien\-bocquet\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cyprien\-bocquet\.fr$
+RewriteRule ^/?$ "https\:\/\/cyprien\-bocquet\.fr\/" [R=301,L]
+
+
+<Files 403.shtml>
+    order allow,deny
+    allow from all
+</Files>

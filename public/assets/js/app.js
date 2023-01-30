@@ -1,7 +1,7 @@
 // Text typing 
 
 const textDisplay = document.getElementById('text');
-const phrases = ['Let bonjour = ', '"Salut, mon prénom est Cyprien."', '"Je suis à la recherche d\'une alternance"', '"Contactez moi !"'];
+const phrases = ['"Bonjour ! Je suis à la recherche d\'une alternance"', '"Contactez-moi !"'];
 
 // i is the sentence
 let i = 0;
@@ -48,11 +48,21 @@ function loop() {
         }
     }
 
-    const speedUp = Math.random() * (80 - 50) + 50;
-    const normalSpeed = Math.random() * (200 - 100) + 100;
+    const speedUp = Math.random() * (100 - 70) + 70;
+    const normalSpeed = Math.random() * (150 - 100) + 100;
     const time = isEnd ? 2000 : isDeleting ? speedUp : normalSpeed;
     setTimeout(loop, time);
 }
 
 loop();
+
+const clip = document.querySelectorAll('.clip');
+for (let i = 0; i < clip.length; i++) {
+    clip[i].addEventListener('mouseenter', function (e) {
+        clip[i].play()
+    })
+    clip[i].addEventListener('mouseout', function (e) {
+        clip[i].pause()
+    })
+}
 
