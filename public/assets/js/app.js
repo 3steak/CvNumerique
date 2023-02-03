@@ -66,3 +66,18 @@ for (let i = 0; i < clip.length; i++) {
     })
 }
 
+//  MODAL CLOSE ON CLICK
+
+$navLink = document.querySelectorAll('.nav-link');
+$offcanvas = document.querySelector('.offcanvas-end');
+
+$navLink.forEach(e => {
+    e.addEventListener('click', () => {
+        $offcanvasBackdrop = document.querySelector('.offcanvas-backdrop');
+        $offcanvas.classList.remove('show');
+        setTimeout(() => {
+            $offcanvasBackdrop.classList.remove('show');
+        }, "500")
+
+    })
+});
